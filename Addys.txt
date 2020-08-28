@@ -1,0 +1,96 @@
+DWORD ScriptContextVFTable = 0x01AEE350;
+
+Print = 0x005FB770 __cdecl;
+luaF_NewProto = 0x01208960 __cdecl;
+lua_Type = 0x011F6370 __cdecl;
+lua_Next = 0x011F4B10 __cdecl;
+spawn = 0x0072C450 __cdecl;
+SandBox thread = 0x0072C0E0 __cdecl;
+lua_PushString = 0x011F50A0 __fastcall;
+luaf_newCClosure = 0x012088F0 __cdecl;
+lua_Settable = 0x011F5BE0 __cdecl;
+lua_Pushcclosure = 0x011F4D90 __stdcall;
+lua_RawGeti = 0x011F54A0 __cdecl;
+lua_PushValue = 0x011F5200 __stdcall;
+lua_Settop = 0x011F5C60 __thiscall;
+lua_GetField = 0x011F44D0 __cdecl;
+lua_SetField = 0x011F5940 __cdecl;
+lua_Remove = 0x011F56C0 __cdecl;
+lua_XMove = 0x011F6420 __cdecl;
+lua_SetFenv = 0x011F5860 __cdecl;
+lua_Rawseti = 0x011F55F0 __cdecl;
+lua_Rawset = 0x011F5520 __cdecl;
+lua_RawGet = 0x011F5370 __cdecl;
+lua_SetupValue = 0x011F5CE0 __cdecl;
+lua_ToBoolean = 0x011F5DA0 __cdecl;
+lua_ToInteger = 0x011F5E00 __cdecl;
+lua_TolString = 0x011F5E80 __fastcall;
+lua_ToPointer = 0x011F6040 __cdecl;
+lua_ToThread = 0x011F61A0 __cdecl;
+lua_TypeName = 0x011F63B0 __cdecl;
+lua_NewUserData = 0x011F4A90 __cdecl;
+lua_PushThread = 0x011F5130 __cdecl;
+lua_GetFenv = 0x011F4310 __cdecl;
+Deserialize = 0x011FFBB0 __cdecl;
+Index2Adr = 0x011F3FB0 __cdecl;
+FireClickDetector = 0x00BBEF90 __thiscall;
+GetDataModel = 0x00E81A80 __cdecl;
+GetDataModel2 = 0x00E81930 __cdecl;
+lua_CreateTable = 0x011F4290 __cdecl;
+lua_CheckStack = 0x011F4150 __cdecl;
+lua_Call = 0x011F40E0 __cdecl;
+luaA_PushObject = 0x011F4070 __cdecl;
+lua_ToUserData = 0x011F6280 __cdecl;
+lua_SetReadOnly = 0x011F5B00 __cdecl;
+lua_SetMetaTable = 0x011F59F0 __cdecl;
+lua_NewThread = 0x011F4A00 __cdecl;
+lua_PCall = 0x011F4C80 __cdecl;
+lua_ObjLen = 0x011F4BA0 __cdecl;
+lua_Pushboolean = 0x011F4D40 __cdecl;
+lua_PushInteger = 0x011F4ED0 __cdecl;
+lua_PushNil = 0x011F4FF0 __cdecl;
+lua_PushNumber = 0x011F5040 __stdcall;
+lua_PushLString = 0x011F4F80 __cdecl;
+lua_PushLightUserdata = 0x011F4F30 __cdecl;
+lua_Tonumber = 0x011F5FB0 __cdecl;
+lua_Insert = 0x011F4F80 __cdecl;
+luaL_TypeError = 0x011F6E50 __cdecl;
+FindFirstChildOfClass = 0x0060C130 __stdcall;
+luaS_newlstr = 0x01209EF0 __thiscall;
+luaL_Unref = 0x011F6EF0 __cdecl;
+luaL_Where = 0x011F6F50 __cdecl;
+luaL_Register = 0x011F6D60 __cdecl;
+luaL_Error = 0x011F6900 __cdecl;
+luaL_FindTable = 0x011F6930 __cdecl;
+luaL_AddLString = 0x011F6590 __cdecl;
+luaL_ArgError = 0x011F6700 __cdecl;
+luaL_CheckAny = 0x011F6790 __cdecl;
+luaL_CheckInteger = 0x011F67D0 __cdecl;
+luaL_CheckLString = 0x011F6800 __cdecl;
+luaL_CheckNumber = 0x011F6830 __cdecl;
+luaL_CheckOption = 0x011F6860 __cdecl;
+luaL_CheckType = 0x011F68D0 __cdecl;
+luaL_GetMetaField = 0x011F6A20 __cdecl;
+luaL_Ref = 0x011F6CA0 __cdecl;
+luaL_OptLString = 0x011F6FF0 __stdcall;
+luaL_OptInteger = 0x011F6AF0 __cdecl;
+luaL_NewMettable = 0x011F6A80 __cdecl;
+lua_Yield = 0x011F7800 __cdecl;
+lua_GC = 0x011F4310 __cdecl;
+lua_GetMetatable = 0x011F4580 __fastcall;
+lua_Gettable = 0x011F4640 __cdecl;
+lua_Gettop = 0x011F46C0 __cdecl;
+int top = 12;
+int base = 24;
+
+lua_GetUpValue = 0x011F46E0 __cdecl;
+lua_IsCFunction = 0x011F4800 __cdecl;
+
+
+ /*
+----Statistics----
+version-0c5386774b0d4ab3
+Scanning Time: 3.11667 Minutes
+Addys Dumped *some might be incorrect*: 82
+--------------
+  */}
